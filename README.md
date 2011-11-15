@@ -6,22 +6,28 @@ BRMの予定を時系列にカレンダーに並べて表示するだけのス�
 
 ## 説明
 
-* 下記のファイルを同じフォルダに置く。
+To make a code block, indent four spaces:
 
-  brmcalendar/
-    index.php        -- メインページ
-    index.css        -- スタイルシート
-    icon.png         -- ページアイコン (iOS用)
-    brmdata.php      -- BRMデータ読み込みクラス
-    cache.manifest   -- オフラインアプリ用 manifest
-    yyyy.txt         -- 西暦４桁のテキストファイル
+
+
+* 下記のファイルを同じフォルダに置く:
+
+フォルダ構造:
+
+    brmcalendar/
+        index.php        -- メインページ
+        index.css        -- スタイルシート
+        icon.png         -- ページアイコン (iOS用)
+        brmdata.php      -- BRMデータ読み込みクラス
+        cache.manifest   -- オフラインアプリ用 manifest
+        yyyy.txt         -- 西暦４桁のテキストファイル
 
 * yyyy.txtの中身
 
-  ;で始まる行はコメント行
-  ファイル名は yyyy.txt (UTF-8)
-  中身はcsv形式
-    ClubUniqueID,クラブ名称,略称名,距離,mmdd,mmdd,...
+    - ;で始まる行はコメント行
+    - 　ファイル名は yyyy.txt (UTF-8)
+    - 中身はcsv形式
+       -  ClubUniqueID,クラブ名称,略称名,距離,mmdd,mmdd,...
 
 
 ## LICENSE
@@ -32,4 +38,4 @@ LICENSE ファイル参照。
 
 ## 連絡先
 
-email: mmgithub@gmail.com
+[email :] mmgithub@gmail.com
